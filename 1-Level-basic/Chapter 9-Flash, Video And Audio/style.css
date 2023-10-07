@@ -26,9 +26,8 @@ body{
 }
 
 .header > div > p{
-    background: rgb(180, 180, 180);
-    color: #000;
-    border: 0.2px solid blue;
+    background: red;
+    color: #fff;
     padding: 0.4rem 0.8rem;
     border-radius: 0.4rem;
     letter-spacing: 0.2rem;
@@ -89,6 +88,8 @@ a {
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 
 /* responsive media query */
