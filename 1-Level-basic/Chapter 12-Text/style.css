@@ -111,3 +111,81 @@ a {
         padding: 0.1rem 0.2rem;
     }
 }
+
+
+
+
+/* I'm css comment  and this css for Chapter 10 only*/
+
+/*  font-family */
+#ff {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#fs{
+    font-size:20px; /* size can pass [ pixel(px), percent(20%), rem, and em] */
+}
+
+#fw{
+    font-weight: bold; /*normal, bold 400, 600 */
+}
+
+#fstyle{
+    font-style: italic; /* normal , italic */
+}
+
+#ttransform{
+    text-transform: uppercase; /* uppercase, lowercase, capitilize*/
+}
+
+#tdecoration{
+    text-decoration: underline; /* underline , overline , blink .*/
+}
+
+#theight {
+    line-height: 30%; /* em. rem, percentage (30%) */
+}
+
+#lspace {
+    letter-spacing: 0.5rem; 
+}
+#wspace{
+    word-spacing: 0.7rem;
+}
+
+#talign{
+    text-align: center;
+}
+
+#valign {
+    vertical-align: middle; /* baseline, sub, super, top, text-top, middle, bottom, text-bottom*/
+}
+
+#tidenting{
+    text-indent: 20px;
+}
+
+#tsh{
+    text-shadow: 1px 5px 10px red;
+}
+
+#fletter::first-letter {
+   font-size: 200%; 
+}
+
+#fline::first-line{
+ font-style: italic;
+}
+
+#tlinkevisited:visited{
+    color: red;
+}
+
+#thover:hover {
+    color: white;
+    background: red;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+}
+
+
+

@@ -11,7 +11,7 @@
       <div class="header" id="header">
         <div>
           <h1>
-            Welcome to Learning path <span id="html5">html5</span> &
+            Welcome to Learning <span id="html5">Boxes</span> in
             <span id="css3">css3</span>
           </h1>
         </div>
@@ -20,71 +20,160 @@
           <p id="root"></p>
         </div>
       </div>
+
       <ul>
-        <li>
-          <a href="/Chapter 1-Structure/" alt="structure"
-            >Chapter 1: Structure</a
-          >
-        </li>
-        <li><a href="/Chapter 2-Text/" alt="text">Chapter 2: Text</a></li>
-        <li><a href="/Chapter 3-Lists/" alt="lists">Chapter 3: Lists</a></li>
-        <li><a href="/Chapter 4-Links/" alt="links">Chapter 4: Links</a></li>
-        <li><a href="/Chapter 5-Images/" alt="images">Chapter 5: Images</a></li>
-        <li><a href="/Chapter 6-Tables/" alt="tables">Chapter 6: Tables</a></li>
-        <li><a href="/Chapter 7-Forms/" alt="forms">Chapter 7: Forms</a></li>
-        <li>
-          <a href="/Chapter 8-Extra Markup/" alt="extra-markup"
-            >Chapter 8: Extra Markup</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 9-Flash, Video And Audio/" alt="flash-video-audio"
-            >Chapter 9: Flash, Video And Audio</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 10-Introduction CSS/" alt="introduction-css3"
-            >Chapter 10: Introduction CSS3</a
-          >
-        </li>
-        <li><a href="/Chapter 11-Color/" alt="color">Chapter 11: Color</a></li>
-        <li><a href="/Chapter 12-Text/" alt="text">Chapter 12: Text</a></li>
-        <li><a href="/Chapter 13-Boxes/" alt="boxes">Chapter 13: Boxes</a></li>
-        <li>
-          <a
-            href="/Chapter 14-Lists, Tables And Forms/"
-            alt="lists-tables-forms"
-            >Chapter 14: Lists, Tables And Forms</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 15-Layout/" alt="layut">Chapter 15: Layout</a>
-        </li>
-        <li>
-          <a href="/Chapter 16-Images/" alt="images">Chapter 16: Images</a>
-        </li>
-        <li>
-          <a href="/Chapter 17- HTML5 Layout/" alt="html5-layout"
-            >Chapter 17: HTML5 Layout</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 18-Process And Design/" alt="process-and-design"
-            >Chapter 18: Process And Design</a
-          >
-        </li>
-        <li>
-          <a
-            href="/Chapter 19-Practical Information/"
-            alt="practical-information"
-            >Chapter 19: Practical Information</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 20-Projects/" alt="projects"
-            >Chapter 20: Projects</a
-          >
-        </li>
+        <!-- Box dimensions -->
+        <div id="bwh">
+          <p>Box Dimensions example.(width) and (height).</p>
+        </div>
+
+        <!-- limit width [min, max] -->
+        <div id="bminmaxw">
+          <p>Example here min-width and max-width</p>
+        </div>
+
+        <!-- limiting heigt [ min ,max ]-->
+        <div id="bminmaxh">
+          <p>Here is example of min-height and max-height.</p>
+        </div>
+
+        <!-- overflowing content : overflow-->
+        <div id="boverflow">
+          <p id="one">Here is applied overflow hidden.</p>
+          <p id="two">
+            Here is applied overflow scroll.<span
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dignissimos, iste ipsa velit facilis accusantium voluptatem
+              voluptatibus, aliquid fugit dolores neque voluptates perferendis
+              amet, magnam perspiciatis! Repellendus rerum eum reiciendis ullam!
+              Enim suscipit est eum nesciunt vitae autem quam deserunt?
+              Inventore tempore nulla ex veniam eius cumque harum nesciunt
+              architecto quos.</span
+            >
+          </p>
+        </div>
+
+        <!-- border, margin and padding -->
+        <div id="bbordermarginpadding">
+          <p id="border">border</p>
+          <p id="margin">margin</p>
+          <p id="padding">padding</p>
+        </div>
+
+        <!-- without another example margin padding and border -->
+        <div id="without-pmb">
+          <h4 class="wpmb">Html</h4>
+          <p class="wpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+          <h4 class="wpmb">css</h4>
+          <p class="wpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+          <h4 class="wpmb">javascript</h4>
+          <p class="wpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+        </div>
+
+        <!-- with another example margin padding and border -->
+        <div id="with-pmb">
+          <h4 class="withpmb" id="h4">Html</h4>
+          <p class="withpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+          <h4 class="withpmb" id="h4">css</h4>
+          <p class="withpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+          <h4 class="withpmb" id="h4">javascript</h4>
+          <p class="withpmb">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, ab?
+          </p>
+        </div>
+
+        <!-- border width  -->
+        <div id="bwidth">
+          <p id="thin">border width thin applied</p>
+          <p id="medium">border width thin applied</p>
+          <p id="think">border width thin applied</p>
+        </div>
+
+        <!-- border style -->
+        <div id="bstyle">
+          <p class="p" id="one">this is one line</p>
+          <p class="p" id="two">this is two line</p>
+          <p class="p" id="three">this is three line</p>
+          <p class="p" id="four">this is four line</p>
+          <p class="p" id="five">this is five line</p>
+          <p class="p" id="six">this is five line</p>
+          <p class="p" id="seven">this is five line</p>
+          <p class="p" id="eight">this is five line</p>
+        </div>
+
+        <!-- border color -->
+        <div id="bcolor">
+          <p id="p">border color</p>
+        </div>
+
+        <div id="bfmp">
+          <!--  border  -->
+          <div id="bborder">
+            <p>Border</p>
+          </div>
+
+          <!-- padding -->
+          <div id="bpadding">
+            <p>padding</p>
+          </div>
+
+          <!-- margin -->
+          <div id="bmargin">
+            <p>margin</p>
+          </div>
+        </div>
+
+        <!-- text aling center  -->
+        <div id="btextcenter">
+          <p>box text center</p>
+        </div>
+
+        <!-- changing inline block -->
+        <div id="displayinlineblock">
+          <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li class="coming-soon">setting</li>
+            <li>product</li>
+          </ul>
+        </div>
+
+        <!-- hidden boxes -->
+        <div id="hiddenboxes">
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+            <li class="comming-soon"><a href="#">tools</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </div>
+
+        <div id="bisr">
+          <!-- border image -->
+          <div id="bimage">
+            <p>border image</p>
+          </div>
+
+          <!-- border shadow -->
+          <div id="bshadow">
+            <p>box shadow</p>
+          </div>
+
+          <!-- border radius  -->
+          <div id="bradius">
+            <p>border radius</p>
+          </div>
+        </div>
       </ul>
     </div>
     <footer></footer>

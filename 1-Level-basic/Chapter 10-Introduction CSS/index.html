@@ -2,8 +2,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Level-1_Basic HTML5 & CSS3</title>
+    <title>Chapter 10 Introduction CSS</title>
     <link rel="stylesheet" href="./style.css" />
+
+
+    <!-- external style sheet -->
+    <link rel="stylesheet" href="./external-style.css">
+
+    <!--internal style sheet-->
+    <style>
+      #internal-style {
+        color: #fff;
+        font-size: 1.25rem;
+      }
+    </style>
   </head>
   <body>
     <!--links all chapter -->
@@ -11,8 +23,8 @@
       <div class="header" id="header">
         <div>
           <h1>
-            Welcome to Learning path <span id="html5">html5</span> &
-            <span id="css3">css3</span>
+            Types of CSS <span id="html5">Inline Style sheet</span> ,
+            <span id="css3">Internal Style Sheet</span> & <span id="html5">External Style Sheet</span>
           </h1>
         </div>
 
@@ -21,71 +33,26 @@
         </div>
       </div>
       <ul>
+       
+
+        <!-- inline style sheet example -->
         <li>
-          <a href="/Chapter 1-Structure/" alt="structure"
-            >Chapter 1: Structure</a
-          >
+          <p style="color: #fff; font-size: 1.25rem;">I m inline style sheet example.</p>
         </li>
-        <li><a href="/Chapter 2-Text/" alt="text">Chapter 2: Text</a></li>
-        <li><a href="/Chapter 3-Lists/" alt="lists">Chapter 3: Lists</a></li>
-        <li><a href="/Chapter 4-Links/" alt="links">Chapter 4: Links</a></li>
-        <li><a href="/Chapter 5-Images/" alt="images">Chapter 5: Images</a></li>
-        <li><a href="/Chapter 6-Tables/" alt="tables">Chapter 6: Tables</a></li>
-        <li><a href="/Chapter 7-Forms/" alt="forms">Chapter 7: Forms</a></li>
+        &nbsp; 
+        
+        
+        <!-- internal style sheet example -->
         <li>
-          <a href="/Chapter 8-Extra Markup/" alt="extra-markup"
-            >Chapter 8: Extra Markup</a
-          >
+          <p id="internal-style">I'm internal style sheet example.</p>
         </li>
+
+        <!-- external style sheet example -->
         <li>
-          <a href="/Chapter 9-Flash, Video And Audio/" alt="flash-video-audio"
-            >Chapter 9: Flash, Video And Audio</a
-          >
+          <p id="external-style">I'm external style sheet example.</p>
         </li>
-        <li>
-          <a href="/Chapter 10-Introduction CSS/" alt="introduction-css3"
-            >Chapter 10: Introduction CSS3</a
-          >
-        </li>
-        <li><a href="/Chapter 11-Color/" alt="color">Chapter 11: Color</a></li>
-        <li><a href="/Chapter 12-Text/" alt="text">Chapter 12: Text</a></li>
-        <li><a href="/Chapter 13-Boxes/" alt="boxes">Chapter 13: Boxes</a></li>
-        <li>
-          <a
-            href="/Chapter 14-Lists, Tables And Forms/"
-            alt="lists-tables-forms"
-            >Chapter 14: Lists, Tables And Forms</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 15-Layout/" alt="layut">Chapter 15: Layout</a>
-        </li>
-        <li>
-          <a href="/Chapter 16-Images/" alt="images">Chapter 16: Images</a>
-        </li>
-        <li>
-          <a href="/Chapter 17- HTML5 Layout/" alt="html5-layout"
-            >Chapter 17: HTML5 Layout</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 18-Process And Design/" alt="process-and-design"
-            >Chapter 18: Process And Design</a
-          >
-        </li>
-        <li>
-          <a
-            href="/Chapter 19-Practical Information/"
-            alt="practical-information"
-            >Chapter 19: Practical Information</a
-          >
-        </li>
-        <li>
-          <a href="/Chapter 20-Projects/" alt="projects"
-            >Chapter 20: Projects</a
-          >
-        </li>
-      </ul>
+
+      </ul>      
     </div>
     <footer></footer>
 
