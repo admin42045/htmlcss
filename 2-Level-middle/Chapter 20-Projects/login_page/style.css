@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://img.freepik.com/free-vector/blue-futuristic-networking-technology_53876-100679.jpg?w=740&t=st=1698330540~exp=1698331140~hmac=8a81aca92dc96a57936b54ee3ed1ba26bbb5d5ba8a4cabafa9f31f4d324dbce9");
+}
+
+#container {
+  height: 100vh;
+  margin: 1rem auto;
+}
+
+#container,
+#top,
+#bottom-area {
+  width: 30vw;
+  height: 70vh;
+  max-width: 25vw;
+  padding: 2rem 2.5rem;
+}
+
+#com {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+@media screen and (max-width:768px) {
+
+  #container,
+  #top,
+  #bottom-area {
+    width: 80vw;
+    height: 100vh;
+    max-width: 50vw;
+    max-height: 100vh;
+  }
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem auto;
+}
+
+#signup {
+  text-align: right;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  color: #1C8BE3;
+}
+
+#signup a {
+  text-decoration: none;
+  color: #1C8BE3;
+  font-size: 1.25rem;
+}
+
+input {
+  outline: none;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  background: transparent;
+}
+
+#username,
+#password,
+#login {
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#top {
+  background-color: #D6E8F1;
+  border-top-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+}
+
+#bottom-area {
+  background-color: #1C8BE3;
+  border-bottom-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  text-align: center;
+  color: #fff;
+}
+
+#bottom-area p {
+  font-size: 1.125rem;
+}
+
+#bottom-area #icons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+#login {
+  width: 18vw;
+  max-width: 18vw;
+}
+
+#login button {
+  cursor: pointer;
+  width: 30vw;
+  max-width: 35vw;
+  padding: 0.6rem 1rem;
+  color: #fff;
+  letter-spacing: 2px;
+  background-color: #1C8BE3;
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  font-size: 1.124rem;
+  margin: 1.5rem auto;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+#forget-password {
+  text-transform: capitalize;
+  color: #1C8BE3;
+  letter-spacing: 1px;
+  font-weight: 100px;
+  cursor: pointer;
+}
